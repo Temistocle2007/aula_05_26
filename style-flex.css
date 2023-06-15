@@ -1,0 +1,75 @@
+* {
+    margin: 5px;
+    padding: 0px;
+}
+
+body {
+    background-image:url("Estrelas.jpg");
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+.cabecalho {
+   display: flex;
+   justify-content: center;
+   color: #8A2BE2;
+}
+
+
+
+#box1 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #FFFFFF;
+    background-image:url("animes.jpg");
+    width: 200px;
+    height: 200px;
+    border: 5px solid #455d20;
+    border-radius: 10px;
+}
+
+#box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #FFFFFF;
+    background-image:url("videogame.jpeg");
+    width: 200px;
+    height: 200px;
+    border: 5px solid #7FFFD4;
+    border-radius: 10px;
+}
+#box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #FFFFFF;
+    background-image:url("Yugi.jpeg");
+    width: 200px;
+    height: 200px;
+    border: 5px solid #455d20;
+    border-radius: 10px;
+}
+#box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #FFFFFF;
+    background-image:url("RPG.jpeg");
+    width: 200px;
+    height: 200px;
+    border: 5px solid #7FFFD4;
+    border-radius: 10px;
+}
